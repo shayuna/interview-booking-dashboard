@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import styles from './App.module.scss';
+import HighLevelReport from "./HighLevelReport";
+import EmployeeStats from "./EmployeeStats";
 
 export default class App extends Component {
     render() {
         return (
-            <div className={styles.app}>
-                <div className="page-content">
-                    <h1>What are you waiting for?</h1>
-                </div>
+            <div>
+                <HighLevelReport/>
+                <EmployeeStats/>
             </div>
         );
     }
